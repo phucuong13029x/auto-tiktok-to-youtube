@@ -5,7 +5,7 @@ import time, os
 
 class APITiktok(object):
     def __init__(self):
-        self.url_main = 'https://www.tikwm.com/api/'
+        self.url_main = ''
         self.url_user_feed = self.url_main + 'user/posts'
         self.url_user_detail = self.url_main + 'user/info'
         self.url_user_following = self.url_main + 'user/following'

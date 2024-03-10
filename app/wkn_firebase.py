@@ -4,14 +4,14 @@ import json
 
 
 firebaseConfig = {
-    "apiKey": "AIzaSyBttYR3fweoJKqnbtdRlcO2AwcbtzktSOs",
-    "authDomain": "dbstoreapi.firebaseapp.com",
-    "databaseURL": "https://dbstoreapi-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "projectId": "dbstoreapi",
-    "storageBucket": "dbstoreapi.appspot.com",
-    "messagingSenderId": "451333344216",
-    "appId": "1:451333344216:web:7cbab822c07a749d7540ad",
-    "measurementId": "G-PCNVLP8MYT"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
 }
 firebase_Connect = pyrebase.initialize_app(firebaseConfig)
 firebase_Database = firebase_Connect.database()
